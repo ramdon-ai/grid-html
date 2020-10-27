@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: white;
+    padding-left: 950px;
+    height: 40px;
+    padding-top: 20px;
+}
+body{
+    background-color: black;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.gambar img{
+    width: 500px;
+    position: absolute;
+}
+.jamal{
+    color: white;
+}
+.jamal h1{
+    font-size: 150px;
+    margin-left: 40%;
+    padding-top: 40px;
+}
+.jamal p{
+    font-size: 25px;
+    margin-left: 40%;
+    padding-top: 30px;
+}
+.indo p{
+    float: right;
+    color: white;
+}
+.daftar h2{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-size: 50px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+button{
+    background-color: red;
+    color: white;
+    margin-left: 60%;
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+}
+.button p{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.indo{
+    margin-top: 60px;
+    margin-right: 30px;   
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.grid-container .fto{
+    margin: 10px;
+}
+.fto{
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+.ip{
+    grid-template-areas: ;
+    margin: 50px;
+}
+.ip p{
+    float: right;
+    color: white;
+}
+.lr{
+    margin: 60px;
+}
+.lr img{
+    float: right;
+}
+.lr p{
+    color: white;
+}
